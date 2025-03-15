@@ -9,6 +9,11 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "All blogs",
+  description: "project_2",
+};
+
 const BlogPage = async () => {
   return (
     <div>

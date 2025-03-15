@@ -15,10 +15,9 @@ const VercelBlogs = async () => {
           <div key={blog.id} className="my-2 border p-3 rounded-2xl">
             <h2> {blog.title} </h2>
             <Link href={`/blog/${blog.id}`}>
-              {" "}
               <button className="bg-black p-2 rounded text-white  my-2 cursor-pointer">
                 Details
-              </button>{" "}
+              </button>
             </Link>
           </div>
         ))}
